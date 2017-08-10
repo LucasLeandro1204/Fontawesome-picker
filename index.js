@@ -1,3 +1,3 @@
 'use strict';
 
-module.exports = require('./src/Fontawesome');
+module.exports = require('./dist/picker.min.js');
