@@ -1,6 +1,6 @@
 import icons from './resources/fontawesome-icons.json';
 
-export class Picker {
+export default class Picker {
   constructor ({ target = {}, preview = {}, prefix = false } = {}) {
     this.target = target;
     this.prefix = prefix;

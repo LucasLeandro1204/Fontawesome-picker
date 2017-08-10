@@ -2,7 +2,7 @@
   "name": "fontawesome-picker",
   "version": "1.0.0",
   "description": "",
-  "main": "src/Picker.js",
+  "main": "dist/picker.min.js",
   "scripts": {
     "dev": "NODE_ENV=development webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "watch": "NODE_ENV=development webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
@@ -25,6 +25,8 @@
     "cheerio": "^1.0.0-rc.2"
   },
   "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "browser-sync-webpack-plugin": "^1.2.0",
     "laravel-mix": "^1.4.2"
   }
 }

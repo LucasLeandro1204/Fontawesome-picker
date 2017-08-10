@@ -1,0 +1,35 @@
+body {
+  color: #3b3e4c;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+label {
+  width: 110px;
+  display: inline-block;
+}
+
+.icon-preview {
+  width: 31px;
+  height: 31px;
+  border-radius: 4px;
+  align-items: center;
+  display: inline-flex;
+  vertical-align: middle;
+  justify-content: center;
+  border: 1px solid rgba(0,0,0,.12);
+}
+
+@media screen and (max-width: 500px) {
+  .fork {
+    display: none;
+  }
+}
